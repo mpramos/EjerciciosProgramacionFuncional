@@ -80,6 +80,24 @@ public class Person implements Comparable<Person> {
     this.birthDate = birthDate;
   }
   @Override
+  public int hashCode() {
+    return super.hashCode();
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj) {
+      return true;
+    }
+    if (obj == null || this.getClass() != obj.getClass()) {
+      return false;
+    }
+    Person that = (Person) obj;
+    return this.phone.equals(that.phone);
+
+  }
+
+  @Override
   public int compareTo(Person o) {
     return this.lastName.compareTo(o.lastName);
   }
