@@ -23,8 +23,8 @@ public class Ejercicio3 {
     ArrayList<Person> personsFilterList = new ArrayList<>();
     for (int i = 0; i < personsList.size() - 1; i++) {
       if (!personsList.get(i).getEmail().isEmpty()) {
-        String acronymOfname = personsList.get(i).getName().toLowerCase().charAt(0) + personsList.get(i).getLastName().toLowerCase();
-        if (isEmailValid(personsList.get(i).getEmail(), acronymOfname)) {
+        String acronymOfname = personsList.get(i).getName().toLowerCase().charAt(0) + personsList.get(i).getLastName().toLowerCase().replace(" ","");
+        if (!isEmailValid(personsList.get(i).getEmail(), acronymOfname)) {
           personsFilterList.add(personsList.get(i));
         }
       }

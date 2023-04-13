@@ -38,10 +38,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/DH/EJERCICIOSPROGRAMACIONFUNCIONAL/EjerciciosProgramacionFuncional"
+    "last_opened_file_path": "G:/SintaxSquad/EjerciciosProgramacionFuncional",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ejercicio3">
+  <component name="RunManager" selected="Application.Ejercicio6">
     <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1" />
       <module name="ProgramacionFuncional" />
@@ -63,8 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6" />
+      <module name="ProgramacionFuncional" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio6" />
         <item itemvalue="Application.Ejercicio3" />
         <item itemvalue="Application.Ejercicio4" />
         <item itemvalue="Application.Ejercicio1" />

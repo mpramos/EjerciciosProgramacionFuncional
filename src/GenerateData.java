@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class GenerateData {
-  private static final String PATH_FILE = "D:\\DH\\datos_ejercicios.csv";
+  private static final String PATH_FILE = "G:\\SintaxSquad\\EjerciciosProgramacionFuncional\\src\\datos_ejercicios.csv";
   private static final String DELIMITER = ",";
   private static final String FORMAT_DATE = "dd/mm/yyyy";
   private static final int AMOUNT_DATA = 500;
