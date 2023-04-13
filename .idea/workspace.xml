@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0350299f-e352-4222-9747-115c78780d52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +41,16 @@
     "last_opened_file_path": "D:/DH/EJERCICIOSPROGRAMACIONFUNCIONAL/EjerciciosProgramacionFuncional"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ejercicio6">
-    <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio1" />
+  <component name="RunManager" selected="Application.Ejercicio4">
+    <configuration name="Ejercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
       <module name="ProgramacionFuncional" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
+    <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio4" />
       <module name="ProgramacionFuncional" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio4" />
         <item itemvalue="Application.Ejercicio6" />
         <item itemvalue="Application.Ejercicio7" />
         <item itemvalue="Application.Ejercicio8" />
         <item itemvalue="Application.Ejercicio2" />
-        <item itemvalue="Application.Ejercicio1" />
       </list>
     </recent_temporary>
   </component>
