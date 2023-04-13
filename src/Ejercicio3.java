@@ -19,12 +19,12 @@ public class Ejercicio3 {
   }
 
   private static void filterPersonsByFormatEmail(ArrayList<Person> personsList) {
-    System.out.println("--------------- FILTER PERSONS BY FORMAT EMAIL INCORRECT------------------------------");
+    System.out.println("\n--------------- FILTER PERSONS BY FORMAT EMAIL INCORRECT------------------------------");
     ArrayList<Person> personsFilterList = new ArrayList<>();
     for (int i = 0; i < personsList.size() - 1; i++) {
       if (!personsList.get(i).getEmail().isEmpty()) {
-        String acronymOfname = personsList.get(i).getName().toLowerCase().charAt(0) + personsList.get(i).getLastName().toLowerCase();
-        if (isEmailValid(personsList.get(i).getEmail(), acronymOfname)) {
+        String acronymOfName = personsList.get(i).getName().toLowerCase().charAt(0) + personsList.get(i).getLastName().toLowerCase().replace(" ", "");
+        if (!isEmailValid(personsList.get(i).getEmail(), acronymOfName)) {
           personsFilterList.add(personsList.get(i));
         }
       }

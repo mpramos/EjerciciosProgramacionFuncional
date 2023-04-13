@@ -1,6 +1,7 @@
 import enums.Gender;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class Person implements Comparable<Person> {
   private String name;
@@ -79,9 +80,10 @@ public class Person implements Comparable<Person> {
   public void setBirthDate(Date birthDate) {
     this.birthDate = birthDate;
   }
+
   @Override
   public int hashCode() {
-    return super.hashCode();
+    return Objects.hash(this.name, this.lastName, this.age, this.gender);
   }
 
   @Override
@@ -93,8 +95,10 @@ public class Person implements Comparable<Person> {
       return false;
     }
     Person that = (Person) obj;
-    return this.phone.equals(that.phone);
-
+    return this.name.equals(that.name) &&
+            this.lastName.equals(that.lastName) &&
+            this.age.equals(that.age) &&
+            this.gender.equals(that.gender);
   }
 
   @Override
